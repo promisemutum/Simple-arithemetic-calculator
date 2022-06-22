@@ -13,19 +13,19 @@ class Main {
     switch (operator) {
       case '+':
         result = num1 + num2;
-        System.out.println(result);
+        System.out.println("The result is: "+result);
         break;
       case '-':
         result = num1 - num2;
-        System.out.println(result);
+        System.out.println("The result is: "+result);
         break;
       case '*':
         result = num1 * num2;
-        System.out.println(result);
+        System.out.println("The result is: "+result);
         break;
       case '/':
         result = num1 / num2;
-        System.out.println(result);
+        System.out.println("The result is: "+result);
         break;
       default:
         System.out.println("Invalid");
